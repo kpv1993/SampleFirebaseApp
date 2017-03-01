@@ -38,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        //We are not using delete token in our proper app
         deleteToken.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
